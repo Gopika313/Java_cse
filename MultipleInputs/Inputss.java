@@ -6,16 +6,17 @@ public class Inputss{
         int n = input.nextInt();
         int a[] = new int[n];
         int i =0;
+        int j =0;
         while(i<n){
             System.out.println("Enter the value:");
             a[i] = input.nextInt();
             i = i+1;
         }
-            while(i<n){
+            while(j<n){
 
             
-            System.out.println("Entered the value:"+a[i]);
-            i = i+1;
+            System.out.println("Entered the value:"+a[j]);
+            j = j+1;
 
         }
     }
